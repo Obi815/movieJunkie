@@ -16,13 +16,14 @@ body {
     padding: 20px;
 }
 
-section {
+section.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
     width: 50%;
     border: solid 6px black;
     border-radius: 30px;
+    margin: 0;
 }
