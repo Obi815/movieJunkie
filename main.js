@@ -10,6 +10,10 @@ function getFetch() {
     .then(res => res.json())
     .then(data => {
       console.log(data.results); // <-- movies found
+      let image = document.createElement('img');
+
+      // WORK ON PINNING IMAGE TO DOCUMENT!!!!!
+      image.src = data[0].backdrop_path
     })
     .catch(err => {
       console.log(`error ${err}`);
