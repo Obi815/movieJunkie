@@ -27,3 +27,41 @@ section.container {
     border-radius: 30px;
     margin: 0;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/* Spacing for the entire form */
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+form input, form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+form button {
+    width: 30%;
+}
+form input {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-right: .5rem;
+    font-size: 15px;
+    
+}
