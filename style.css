@@ -2,66 +2,81 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Funnel Display';
 }
 
 body {
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    /* justify-items: center; */
     align-items: center;
     background-color: #f6f3f3;
     color: #333;
     line-height: 1.6;
     padding: 20px;
+    margin: 0;
 }
 
 section.container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    height: 50vh;
-    width: 50%;
+    /* height: 25em; */
+    width: 100%;
     border: solid 6px black;
     border-radius: 30px;
-    margin: 0;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    font-size: 5rem;
+}
+
+header p {
+    font-size: 3rem;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     width: 100%;
     margin: 0 auto;
-    padding-top: 20px;
+    padding: 3rem 0 3rem 0;
 }
 
 /* Spacing for the entire form */
-form {
+.btnForm{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 100%;
 }
 
-form input, form button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 3rem;
-}
-
-form button {
-    width: 30%;
-}
-form input {
-    display: flex;
-    align-items: center;
-    width: 70%;
+#movieForm {
     margin-right: .5rem;
-    font-size: 15px;
-    
+}
+
+#movieForm input{
+    /* width: 70%; */
+    font-size: 2rem;
+    padding: 0 auto;
+    text-align: center;
+    border-radius: 17px;
+    padding: .7rem;
+}
+
+#btn {
+    /* width: 30%; */
+    font-size: 2rem;
+    border-radius: 17px;
+    padding: .7rem;
 }
