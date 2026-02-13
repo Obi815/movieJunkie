@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     /* justify-items: center; */
     align-items: center;
-    background-color: #f6f3f3;
+    background-color: #000000;
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -25,6 +25,7 @@ section.container {
     /* height: 25em; */
     width: 100%;
     border: solid 6px black;
+    background-color: darkolivegreen;
     border-radius: 30px;
     margin: 0 auto;
 }
@@ -33,6 +34,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: tan;
 }
 header h1 {
     font-size: 5rem;
@@ -72,6 +74,9 @@ main {
     text-align: center;
     border-radius: 17px;
     padding: .7rem;
+    background-color: #f5f5f5;
+    color: rgb(101, 98, 98);
+    border: none;
 }
 
 #btn {
@@ -79,13 +84,33 @@ main {
     font-size: 2rem;
     border-radius: 17px;
     padding: .7rem;
+    background-color: tan;
+    color: black;
+    border: none;
+    cursor: pointer;
 }
 
 #movies {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     margin-top: 3rem;
+}
+
+#movies img {
+    width: 20rem;
+    height: 30rem;
+    border-radius: 17px;
+    margin: 0 .5rem;
+    border-radius: 25px;
+}
+
+#movies p {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: center;
+    color: tan;
 }

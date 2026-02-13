@@ -11,11 +11,15 @@ function getFetch() {
     .then(data => {
       console.log(data.results); // <-- movies found
       const img = document.createElement('img');
+      const summary = document.createElement('p');
       const movieSection = document.getElementById('movies');
 
       // WORK ON PINNING IMAGE TO DOCUMENT!!!!!
+      movieSection.innerHTML = '';
       img.src = `https://image.tmdb.org/t/p/w500${data.results[0].poster_path}`;
+      summary.textContent = data.results[0].overview
       movieSection.appendChild(img);
+      movieSection.appendChild(summary);
     })
     .catch(err => {
       console.log(`error ${err}`);
