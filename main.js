@@ -10,10 +10,12 @@ function getFetch() {
     .then(res => res.json())
     .then(data => {
       console.log(data.results); // <-- movies found
-      let image = document.createElement('img');
+      const img = document.createElement('img');
+      const movieSection = document.getElementById('movies');
 
       // WORK ON PINNING IMAGE TO DOCUMENT!!!!!
-      image.src = data[0].backdrop_path
+      img.src = `https://image.tmdb.org/t/p/w500${data.results[0].poster_path}`;
+      movieSection.appendChild(img);
     })
     .catch(err => {
       console.log(`error ${err}`);
