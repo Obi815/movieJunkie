@@ -1,15 +1,30 @@
 # Movie Junkie
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+Movie Junkie is a web application that lets users search for movies using the TMDB API and dynamically displays the corresponding movie posters on the page. It showcases API integration, asynchronous JavaScript, and DOM manipulation in a clean frontend interface.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** Comming Soon
 
 ![alt tag](http://placecorgi.com/1200/650)
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** HTML, CSS, JavaScript, Fetch API, The Movie Database
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+Movie Junkie was built to explore clean API integration and dynamic UI rendering in a practical, real-world context.
+
+The application uses a structured HTML layout with a search input and a dedicated results container. When a user submits a query, an event listener triggers a request to the The Movie Database search endpoint using the Fetch API. The response is parsed as JSON, and relevant movie data is extracted from the results array.
+
+From there, the application dynamically generates image elements for each movie poster and appends them to the DOM. Before rendering new results, existing content is cleared to ensure a predictable and clean user experience.
+
+The core logic is separated into focused functions to keep responsibilities clear — handling user input, fetching data, and rendering results are managed independently. This structure makes the project easier to extend and maintain.
+
+Key implementation details include:
+	•	Asynchronous data fetching using async/await
+	•	JSON parsing and response validation
+	•	Conditional handling for missing poster data
+	•	Basic error handling for failed network requests
+	•	DOM manipulation through element creation and controlled rendering
+
+Throughout the build, I focused on writing readable, maintainable JavaScript and thinking through how the data flows from an external API to the UI. The structure allows for straightforward feature expansion such as pagination, additional movie metadata, or state management enhancements.
 
 ## Optimizations
 *(optional)*
