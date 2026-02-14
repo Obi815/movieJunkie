@@ -3,7 +3,7 @@ Movie Junkie is a web application that lets users search for movies using the TM
 
 **Link to project:** [Movie Junkies](https://moviejunkies.netlify.app/)
 
-![alt tag](/extras/Screenshot%202026-02-03%20at%207.02.31 PM.png)
+![alt tag](/extras/Screenshot%202026-02-13%20at%204.49.46 PM.png)
 
 ## How It's Made:
 
