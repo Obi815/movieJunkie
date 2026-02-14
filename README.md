@@ -1,9 +1,9 @@
 # Movie Junkie
 Movie Junkie is a web application that lets users search for movies using the TMDB API and dynamically displays the corresponding movie posters on the page. It showcases API integration, asynchronous JavaScript, and DOM manipulation in a clean frontend interface.
 
-**Link to project:** Comming Soon
+**Link to project:** [Movie Junkies](https://moviejunkies.netlify.app/)
 
-![alt tag](http://placecorgi.com/1200/650)
+![alt tag](/extras/Screenshot%202026-02-03%20at%207.02.31 PM.png)
 
 ## How It's Made:
 
@@ -27,9 +27,10 @@ Key implementation details include:
 Throughout the build, I focused on writing readable, maintainable JavaScript and thinking through how the data flows from an external API to the UI. The structure allows for straightforward feature expansion such as pagination, additional movie metadata, or state management enhancements.
 
 ## Optimizations
-*(optional)*
+Coming Soon 
+<!-- *(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+<!-- You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
 
 ## Lessons Learned:
 
@@ -42,4 +43,4 @@ Take a look at these couple examples that I have in my own portfolio:
 
 **Twitter Battle:** https://github.com/alecortega/twitter-battle
 
-**Patch Panel:** https://github.com/alecortega/patch-panel
+**Patch Panel:** https://github.com/alecortega/patch-panel --> -->
