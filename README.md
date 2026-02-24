@@ -6,7 +6,7 @@ Movie Junkie is a web application that lets users search for movies using the TM
 
 📸 Preview:
 
-![Movie Junkie Screenshot](/extras/Screenshot%202026-02-13%20at%204.49.46 PM.png)
+![alt tag](/extras/Screenshot%202026-02-13%20at%204.49.46 PM.png)
 
 ⸻
 
